@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MS1-c1-Yzg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="WereWolfModerator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="n0j-px-mKv">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="n0j-px-mKv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ot6-hd-Npy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="n0j-px-mKv" secondAttribute="bottom" id="R5z-Vb-2o3"/>
+                            <constraint firstItem="n0j-px-mKv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="eJH-7W-l5H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n0j-px-mKv" secondAttribute="trailing" id="i1K-EC-m6f"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X22-fg-aDK"/>
+                    <connections>
+                        <outlet property="tvView" destination="n0j-px-mKv" id="h78-c0-xh5"/>
+                        <segue destination="ho4-Pi-eEo" kind="show" identifier="MainToCustomizeIdentifier" id="VlH-hk-RAg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="81"/>
+        </scene>
+        <!--Group Players-->
+        <scene sceneID="3Aq-E3-5Vt">
+            <objects>
+                <viewController id="ho4-Pi-eEo" customClass="PlayersViewController" customModule="WereWolfModerator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BCc-v3-Iio">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cu1-r7-v4a">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QTG-sm-hjX">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="G9n-Wb-0ka" firstAttribute="bottom" secondItem="cu1-r7-v4a" secondAttribute="bottom" id="MRr-at-Bxd"/>
+                            <constraint firstItem="cu1-r7-v4a" firstAttribute="leading" secondItem="G9n-Wb-0ka" secondAttribute="leading" id="ZhP-QB-k1Q"/>
+                            <constraint firstItem="G9n-Wb-0ka" firstAttribute="trailing" secondItem="cu1-r7-v4a" secondAttribute="trailing" id="n8n-ak-bj4"/>
+                            <constraint firstItem="cu1-r7-v4a" firstAttribute="top" secondItem="G9n-Wb-0ka" secondAttribute="top" id="zl3-if-9up"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G9n-Wb-0ka"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Group Players" id="FUD-Yz-Yuw">
+                        <barButtonItem key="rightBarButtonItem" title="Create" id="l6t-FC-nFH"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="cu1-r7-v4a" id="kHg-VV-6eZ"/>
+                        <outlet property="create_group_btn" destination="l6t-FC-nFH" id="zGb-jX-7Fm"/>
+                        <segue destination="lhV-c4-QtY" kind="show" identifier="GroupsToGroupDetail" id="QwB-wM-ypz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Awj-Wc-5at" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="289" y="821"/>
+        </scene>
+        <!--Group Detail-->
+        <scene sceneID="OnH-P0-Vje">
+            <objects>
+                <viewController id="lhV-c4-QtY" customClass="GroupPlayerDetailsViewController" customModule="WereWolfModerator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kAG-Bi-vDt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HS4-MM-jih">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="eb4-BW-UXJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYc-g5-dFh">
+                                            <rect key="frame" x="8" y="8" width="359" height="38"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="zYc-g5-dFh" firstAttribute="top" secondItem="eb4-BW-UXJ" secondAttribute="top" constant="8" id="F8Z-OS-MAn"/>
+                                        <constraint firstItem="zYc-g5-dFh" firstAttribute="leading" secondItem="eb4-BW-UXJ" secondAttribute="leading" constant="8" id="Mdh-IM-A3u"/>
+                                        <constraint firstAttribute="trailing" secondItem="zYc-g5-dFh" secondAttribute="trailing" constant="8" id="uMp-6l-FVx"/>
+                                    </constraints>
+                                </view>
+                                <sections/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HS4-MM-jih" firstAttribute="leading" secondItem="u4u-cu-ckS" secondAttribute="leading" id="6Kd-P6-SOo"/>
+                            <constraint firstItem="HS4-MM-jih" firstAttribute="top" secondItem="u4u-cu-ckS" secondAttribute="top" id="6wN-pK-jIg"/>
+                            <constraint firstItem="u4u-cu-ckS" firstAttribute="trailing" secondItem="HS4-MM-jih" secondAttribute="trailing" id="Hmp-Vd-ORV"/>
+                            <constraint firstItem="u4u-cu-ckS" firstAttribute="bottom" secondItem="HS4-MM-jih" secondAttribute="bottom" id="IRj-DM-pMw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="u4u-cu-ckS"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Group Detail" id="ZXX-Sv-egb">
+                        <barButtonItem key="rightBarButtonItem" title="Setting" id="UA5-UE-KuU"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="group_name_lbl" destination="zYc-g5-dFh" id="siz-sr-GvJ"/>
+                        <outlet property="group_player_tb" destination="HS4-MM-jih" id="aue-yT-5Yw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0eL-4p-Mgi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021.6" y="823.53823088455783"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RIE-hl-ExF">
+            <objects>
+                <navigationController id="MS1-c1-Yzg" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LAE-Cm-5gj">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qU5-ML-DbX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UdG-U1-7tO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-468" y="81"/>
+        </scene>
+    </scenes>
+</document>

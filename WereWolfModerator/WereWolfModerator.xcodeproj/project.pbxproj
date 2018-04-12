@@ -1,0 +1,1129 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05096DE9148737E43DCD83B8 /* Pods_WereWolfModeratorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C342AF2E5A6BF953A1A828 /* Pods_WereWolfModeratorTests.framework */; };
+		268F87C644538BAE1CB01000 /* Pods_WereWolfModeratorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7226F731A2CEE206C6E12181 /* Pods_WereWolfModeratorUITests.framework */; };
+		395A4FFB7437D938DBE03E91 /* Pods_WereWolfModerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D8008661AE60A567484845 /* Pods_WereWolfModerator.framework */; };
+		626C1E3B207D92BC009CC51A /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E1D207D92B5009CC51A /* Misc.swift */; };
+		626C1E3C207D92BC009CC51A /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E1E207D92B5009CC51A /* DesignableImageView.swift */; };
+		626C1E3D207D92BC009CC51A /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E1F207D92B5009CC51A /* KeyboardLayoutConstraint.swift */; };
+		626C1E3E207D92BC009CC51A /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E20207D92B5009CC51A /* DesignableButton.swift */; };
+		626C1E3F207D92BC009CC51A /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E21207D92B5009CC51A /* SpringImageView.swift */; };
+		626C1E40207D92BC009CC51A /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E22207D92B6009CC51A /* UnwindSegue.swift */; };
+		626C1E41207D92BC009CC51A /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E23207D92B6009CC51A /* SpringButton.swift */; };
+		626C1E42207D92BC009CC51A /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E24207D92B6009CC51A /* SoundPlayer.swift */; };
+		626C1E43207D92BC009CC51A /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E25207D92B7009CC51A /* SpringLabel.swift */; };
+		626C1E44207D92BC009CC51A /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E26207D92B7009CC51A /* SpringView.swift */; };
+		626C1E45207D92BC009CC51A /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E27207D92B7009CC51A /* DesignableTabBarController.swift */; };
+		626C1E46207D92BC009CC51A /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E28207D92B7009CC51A /* Spring.swift */; };
+		626C1E47207D92BC009CC51A /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E29207D92B8009CC51A /* TransitionManager.swift */; };
+		626C1E48207D92BC009CC51A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E2A207D92B8009CC51A /* LoadingView.swift */; };
+		626C1E49207D92BC009CC51A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E2C207D92B8009CC51A /* BlurView.swift */; };
+		626C1E4A207D92BC009CC51A /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E2D207D92B9009CC51A /* DesignableLabel.swift */; };
+		626C1E4B207D92BC009CC51A /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E2E207D92B9009CC51A /* DesignableTextField.swift */; };
+		626C1E4C207D92BC009CC51A /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E2F207D92B9009CC51A /* AsyncImageView.swift */; };
+		626C1E4D207D92BC009CC51A /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E30207D92B9009CC51A /* ImageLoader.swift */; };
+		626C1E4E207D92BC009CC51A /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E31207D92BA009CC51A /* SpringTextView.swift */; };
+		626C1E4F207D92BC009CC51A /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E32207D92BA009CC51A /* AutoTextView.swift */; };
+		626C1E50207D92BC009CC51A /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E33207D92BA009CC51A /* DesignableView.swift */; };
+		626C1E51207D92BC009CC51A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 626C1E34207D92BB009CC51A /* Info.plist */; };
+		626C1E52207D92BC009CC51A /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626C1E35207D92BB009CC51A /* LoadingView.xib */; };
+		626C1E53207D92BC009CC51A /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E36207D92BB009CC51A /* TransitionZoom.swift */; };
+		626C1E54207D92BC009CC51A /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E37207D92BB009CC51A /* SpringAnimation.swift */; };
+		626C1E55207D92BC009CC51A /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E38207D92BC009CC51A /* SpringTextField.swift */; };
+		626C1E56207D92BC009CC51A /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E39207D92BC009CC51A /* AsyncButton.swift */; };
+		626C1E57207D92BC009CC51A /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E3A207D92BC009CC51A /* DesignableTextView.swift */; };
+		626C1E59207D930A009CC51A /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E58207D930A009CC51A /* ExtensionUIColor.swift */; };
+		626C1E5D207D9526009CC51A /* werewolf-header.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E5C207D9526009CC51A /* werewolf-header.m */; };
+		626C1E5F207D9CE8009CC51A /* HomeCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E5E207D9CE8009CC51A /* HomeCardModel.swift */; };
+		626C1E65207DA01A009CC51A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 626C1E63207DA01A009CC51A /* Localizable.strings */; };
+		626C1E69207DFFCE009CC51A /* WWMString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E68207DFFCE009CC51A /* WWMString.swift */; };
+		626C1E72207E474E009CC51A /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E71207E474E009CC51A /* PlayersViewController.swift */; };
+		626C1E74207E4767009CC51A /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E73207E4767009CC51A /* PlayersViewModel.swift */; };
+		626C1E79207E4AC4009CC51A /* PlayerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E78207E4AC4009CC51A /* PlayerServices.swift */; };
+		626C1E7B207E4C17009CC51A /* PlayerRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E7A207E4C17009CC51A /* PlayerRealmModel.swift */; };
+		626C1E7D207E4F8F009CC51A /* GroupPlayerRealmModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E7C207E4F8F009CC51A /* GroupPlayerRealmModal.swift */; };
+		626C1E7F207E5102009CC51A /* GroupPlayerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E7E207E5102009CC51A /* GroupPlayerServices.swift */; };
+		626C1E88207E5C47009CC51A /* GroupPlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E86207E5C47009CC51A /* GroupPlayerCollectionViewCell.swift */; };
+		626C1E89207E5C47009CC51A /* GroupPlayerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626C1E87207E5C47009CC51A /* GroupPlayerCollectionViewCell.xib */; };
+		626C1E8B207EF125009CC51A /* GroupPlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E8A207EF125009CC51A /* GroupPlayerDetailsViewController.swift */; };
+		626C1E8D207EF138009CC51A /* GroupPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C1E8C207EF138009CC51A /* GroupPlayerViewModel.swift */; };
+		627F19EE207D096E00871CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627F19EC207D096E00871CB1 /* Main.storyboard */; };
+		627F19F0207D096E00871CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627F19EF207D096E00871CB1 /* Assets.xcassets */; };
+		627F19F3207D096E00871CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627F19F1207D096E00871CB1 /* LaunchScreen.storyboard */; };
+		627F19FE207D096E00871CB1 /* WereWolfModeratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F19FD207D096E00871CB1 /* WereWolfModeratorTests.swift */; };
+		627F1A09207D096E00871CB1 /* WereWolfModeratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F1A08207D096E00871CB1 /* WereWolfModeratorUITests.swift */; };
+		627F1A2C207D0E7400871CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F1A2A207D0E7400871CB1 /* AppDelegate.swift */; };
+		627F1A37207D0F8700871CB1 /* ExtentionUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F1A36207D0F8700871CB1 /* ExtentionUIViewController.swift */; };
+		627F1A39207D10C800871CB1 /* SBIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F1A38207D10C800871CB1 /* SBIdentifier.swift */; };
+		627F1A3B207D114800871CB1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F1A3A207D114800871CB1 /* BaseViewController.swift */; };
+		627F1A42207D143B00871CB1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F1A3E207D143B00871CB1 /* MainViewController.swift */; };
+		627F1A44207D143B00871CB1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F1A40207D143B00871CB1 /* MainViewModel.swift */; };
+		627F1A47207D185F00871CB1 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627F1A45207D185F00871CB1 /* MainTableViewCell.swift */; };
+		627F1A48207D185F00871CB1 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627F1A46207D185F00871CB1 /* MainTableViewCell.xib */; };
+		62DCEF78207F5437003BA342 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DCEF76207F5437003BA342 /* PlayerTableViewCell.swift */; };
+		62DCEF79207F5437003BA342 /* PlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62DCEF77207F5437003BA342 /* PlayerTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		627F19FA207D096E00871CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627F19DD207D096E00871CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 627F19E4207D096E00871CB1;
+			remoteInfo = WereWolfModerator;
+		};
+		627F1A05207D096E00871CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627F19DD207D096E00871CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 627F19E4207D096E00871CB1;
+			remoteInfo = WereWolfModerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FB736DA3286F26E33C415C1 /* Pods-WereWolfModerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WereWolfModerator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WereWolfModerator/Pods-WereWolfModerator.debug.xcconfig"; sourceTree = "<group>"; };
+		17385F6D26CE73AF4CB7CB1D /* Pods-WereWolfModeratorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WereWolfModeratorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WereWolfModeratorUITests/Pods-WereWolfModeratorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29DF165C2D691A3216F11186 /* Pods-WereWolfModeratorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WereWolfModeratorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WereWolfModeratorTests/Pods-WereWolfModeratorTests.release.xcconfig"; sourceTree = "<group>"; };
+		30C342AF2E5A6BF953A1A828 /* Pods_WereWolfModeratorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WereWolfModeratorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D8008661AE60A567484845 /* Pods_WereWolfModerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WereWolfModerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		588CB6E005C20A5C3AAEC68C /* Pods-WereWolfModeratorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WereWolfModeratorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WereWolfModeratorUITests/Pods-WereWolfModeratorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		626C1E1D207D92B5009CC51A /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		626C1E1E207D92B5009CC51A /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		626C1E1F207D92B5009CC51A /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		626C1E20207D92B5009CC51A /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		626C1E21207D92B5009CC51A /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		626C1E22207D92B6009CC51A /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		626C1E23207D92B6009CC51A /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		626C1E24207D92B6009CC51A /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		626C1E25207D92B7009CC51A /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		626C1E26207D92B7009CC51A /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		626C1E27207D92B7009CC51A /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		626C1E28207D92B7009CC51A /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		626C1E29207D92B8009CC51A /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		626C1E2A207D92B8009CC51A /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		626C1E2B207D92B8009CC51A /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		626C1E2C207D92B8009CC51A /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		626C1E2D207D92B9009CC51A /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		626C1E2E207D92B9009CC51A /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		626C1E2F207D92B9009CC51A /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		626C1E30207D92B9009CC51A /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		626C1E31207D92BA009CC51A /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		626C1E32207D92BA009CC51A /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		626C1E33207D92BA009CC51A /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		626C1E34207D92BB009CC51A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626C1E35207D92BB009CC51A /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		626C1E36207D92BB009CC51A /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		626C1E37207D92BB009CC51A /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		626C1E38207D92BC009CC51A /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		626C1E39207D92BC009CC51A /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		626C1E3A207D92BC009CC51A /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		626C1E58207D930A009CC51A /* ExtensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		626C1E5B207D9526009CC51A /* WereWolfModerator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WereWolfModerator-Bridging-Header.h"; sourceTree = "<group>"; };
+		626C1E5C207D9526009CC51A /* werewolf-header.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "werewolf-header.m"; sourceTree = "<group>"; };
+		626C1E5E207D9CE8009CC51A /* HomeCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardModel.swift; sourceTree = "<group>"; };
+		626C1E61207D9FB1009CC51A /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		626C1E62207D9FB1009CC51A /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		626C1E64207DA01A009CC51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		626C1E66207DA02E009CC51A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		626C1E67207DA031009CC51A /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		626C1E68207DFFCE009CC51A /* WWMString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWMString.swift; sourceTree = "<group>"; };
+		626C1E71207E474E009CC51A /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		626C1E73207E4767009CC51A /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
+		626C1E78207E4AC4009CC51A /* PlayerServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerServices.swift; sourceTree = "<group>"; };
+		626C1E7A207E4C17009CC51A /* PlayerRealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRealmModel.swift; sourceTree = "<group>"; };
+		626C1E7C207E4F8F009CC51A /* GroupPlayerRealmModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPlayerRealmModal.swift; sourceTree = "<group>"; };
+		626C1E7E207E5102009CC51A /* GroupPlayerServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPlayerServices.swift; sourceTree = "<group>"; };
+		626C1E86207E5C47009CC51A /* GroupPlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		626C1E87207E5C47009CC51A /* GroupPlayerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupPlayerCollectionViewCell.xib; sourceTree = "<group>"; };
+		626C1E8A207EF125009CC51A /* GroupPlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		626C1E8C207EF138009CC51A /* GroupPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupPlayerViewModel.swift; sourceTree = "<group>"; };
+		627F19E5207D096E00871CB1 /* WereWolfModerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WereWolfModerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		627F19ED207D096E00871CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		627F19EF207D096E00871CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		627F19F2207D096E00871CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		627F19F4207D096E00871CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627F19F9207D096E00871CB1 /* WereWolfModeratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WereWolfModeratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		627F19FD207D096E00871CB1 /* WereWolfModeratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WereWolfModeratorTests.swift; sourceTree = "<group>"; };
+		627F19FF207D096E00871CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627F1A04207D096E00871CB1 /* WereWolfModeratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WereWolfModeratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		627F1A08207D096E00871CB1 /* WereWolfModeratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WereWolfModeratorUITests.swift; sourceTree = "<group>"; };
+		627F1A0A207D096E00871CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627F1A2A207D0E7400871CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		627F1A36207D0F8700871CB1 /* ExtentionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionUIViewController.swift; sourceTree = "<group>"; };
+		627F1A38207D10C800871CB1 /* SBIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBIdentifier.swift; sourceTree = "<group>"; };
+		627F1A3A207D114800871CB1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		627F1A3E207D143B00871CB1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		627F1A40207D143B00871CB1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		627F1A45207D185F00871CB1 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		627F1A46207D185F00871CB1 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		62DCEF76207F5437003BA342 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		62DCEF77207F5437003BA342 /* PlayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTableViewCell.xib; sourceTree = "<group>"; };
+		7226F731A2CEE206C6E12181 /* Pods_WereWolfModeratorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WereWolfModeratorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0C33D0C4814004994C5E3E /* Pods-WereWolfModeratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WereWolfModeratorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WereWolfModeratorTests/Pods-WereWolfModeratorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD85CE5C7EF7316E11014DD5 /* Pods-WereWolfModerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WereWolfModerator.release.xcconfig"; path = "Pods/Target Support Files/Pods-WereWolfModerator/Pods-WereWolfModerator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		627F19E2207D096E00871CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A4FFB7437D938DBE03E91 /* Pods_WereWolfModerator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627F19F6207D096E00871CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05096DE9148737E43DCD83B8 /* Pods_WereWolfModeratorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627F1A01207D096E00871CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268F87C644538BAE1CB01000 /* Pods_WereWolfModeratorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2056EF652A4EFB4436736B4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FB736DA3286F26E33C415C1 /* Pods-WereWolfModerator.debug.xcconfig */,
+				DD85CE5C7EF7316E11014DD5 /* Pods-WereWolfModerator.release.xcconfig */,
+				BE0C33D0C4814004994C5E3E /* Pods-WereWolfModeratorTests.debug.xcconfig */,
+				29DF165C2D691A3216F11186 /* Pods-WereWolfModeratorTests.release.xcconfig */,
+				17385F6D26CE73AF4CB7CB1D /* Pods-WereWolfModeratorUITests.debug.xcconfig */,
+				588CB6E005C20A5C3AAEC68C /* Pods-WereWolfModeratorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		626C1E1C207D92A7009CC51A /* Spings */ = {
+			isa = PBXGroup;
+			children = (
+				626C1E39207D92BC009CC51A /* AsyncButton.swift */,
+				626C1E2F207D92B9009CC51A /* AsyncImageView.swift */,
+				626C1E32207D92BA009CC51A /* AutoTextView.swift */,
+				626C1E2C207D92B8009CC51A /* BlurView.swift */,
+				626C1E20207D92B5009CC51A /* DesignableButton.swift */,
+				626C1E1E207D92B5009CC51A /* DesignableImageView.swift */,
+				626C1E2D207D92B9009CC51A /* DesignableLabel.swift */,
+				626C1E27207D92B7009CC51A /* DesignableTabBarController.swift */,
+				626C1E2E207D92B9009CC51A /* DesignableTextField.swift */,
+				626C1E3A207D92BC009CC51A /* DesignableTextView.swift */,
+				626C1E33207D92BA009CC51A /* DesignableView.swift */,
+				626C1E30207D92B9009CC51A /* ImageLoader.swift */,
+				626C1E34207D92BB009CC51A /* Info.plist */,
+				626C1E1F207D92B5009CC51A /* KeyboardLayoutConstraint.swift */,
+				626C1E2A207D92B8009CC51A /* LoadingView.swift */,
+				626C1E35207D92BB009CC51A /* LoadingView.xib */,
+				626C1E1D207D92B5009CC51A /* Misc.swift */,
+				626C1E24207D92B6009CC51A /* SoundPlayer.swift */,
+				626C1E2B207D92B8009CC51A /* Spring.h */,
+				626C1E28207D92B7009CC51A /* Spring.swift */,
+				626C1E37207D92BB009CC51A /* SpringAnimation.swift */,
+				626C1E23207D92B6009CC51A /* SpringButton.swift */,
+				626C1E21207D92B5009CC51A /* SpringImageView.swift */,
+				626C1E25207D92B7009CC51A /* SpringLabel.swift */,
+				626C1E38207D92BC009CC51A /* SpringTextField.swift */,
+				626C1E31207D92BA009CC51A /* SpringTextView.swift */,
+				626C1E26207D92B7009CC51A /* SpringView.swift */,
+				626C1E29207D92B8009CC51A /* TransitionManager.swift */,
+				626C1E36207D92BB009CC51A /* TransitionZoom.swift */,
+				626C1E22207D92B6009CC51A /* UnwindSegue.swift */,
+			);
+			path = Spings;
+			sourceTree = "<group>";
+		};
+		626C1E6F207E4734009CC51A /* Group Players */ = {
+			isa = PBXGroup;
+			children = (
+				626C1E71207E474E009CC51A /* PlayersViewController.swift */,
+				626C1E73207E4767009CC51A /* PlayersViewModel.swift */,
+				626C1E86207E5C47009CC51A /* GroupPlayerCollectionViewCell.swift */,
+				626C1E87207E5C47009CC51A /* GroupPlayerCollectionViewCell.xib */,
+			);
+			path = "Group Players";
+			sourceTree = "<group>";
+		};
+		626C1E70207E473B009CC51A /* Groups Player Detail */ = {
+			isa = PBXGroup;
+			children = (
+				626C1E8A207EF125009CC51A /* GroupPlayerDetailsViewController.swift */,
+				626C1E8C207EF138009CC51A /* GroupPlayerViewModel.swift */,
+			);
+			path = "Groups Player Detail";
+			sourceTree = "<group>";
+		};
+		626C1E75207E47F3009CC51A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				62DCEF76207F5437003BA342 /* PlayerTableViewCell.swift */,
+				62DCEF77207F5437003BA342 /* PlayerTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		626C1E76207E4A90009CC51A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				626C1E77207E4AA3009CC51A /* Players */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		626C1E77207E4AA3009CC51A /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				626C1E78207E4AC4009CC51A /* PlayerServices.swift */,
+				626C1E7A207E4C17009CC51A /* PlayerRealmModel.swift */,
+				626C1E7C207E4F8F009CC51A /* GroupPlayerRealmModal.swift */,
+				626C1E7E207E5102009CC51A /* GroupPlayerServices.swift */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		627F19DC207D096E00871CB1 = {
+			isa = PBXGroup;
+			children = (
+				627F19E7207D096E00871CB1 /* WereWolfModerator */,
+				627F19FC207D096E00871CB1 /* WereWolfModeratorTests */,
+				627F1A07207D096E00871CB1 /* WereWolfModeratorUITests */,
+				627F19E6207D096E00871CB1 /* Products */,
+				2056EF652A4EFB4436736B4E /* Pods */,
+				B095B75108C66AD13E30FFC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		627F19E6207D096E00871CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				627F19E5207D096E00871CB1 /* WereWolfModerator.app */,
+				627F19F9207D096E00871CB1 /* WereWolfModeratorTests.xctest */,
+				627F1A04207D096E00871CB1 /* WereWolfModeratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		627F19E7207D096E00871CB1 /* WereWolfModerator */ = {
+			isa = PBXGroup;
+			children = (
+				626C1E76207E4A90009CC51A /* Modules */,
+				626C1E75207E47F3009CC51A /* Cells */,
+				627F1A49207D251400871CB1 /* Libraries */,
+				627F1A35207D0F4400871CB1 /* Extensions */,
+				627F1A34207D0F3D00871CB1 /* Helpers */,
+				627F1A33207D0F3700871CB1 /* Models */,
+				627F1A32207D0F2F00871CB1 /* Storyboard */,
+				627F1A31207D0EC200871CB1 /* Views */,
+				627F1A28207D0E6500871CB1 /* Apps */,
+				627F19EC207D096E00871CB1 /* Main.storyboard */,
+				627F19EF207D096E00871CB1 /* Assets.xcassets */,
+				627F19F1207D096E00871CB1 /* LaunchScreen.storyboard */,
+				627F19F4207D096E00871CB1 /* Info.plist */,
+				626C1E63207DA01A009CC51A /* Localizable.strings */,
+			);
+			path = WereWolfModerator;
+			sourceTree = "<group>";
+		};
+		627F19FC207D096E00871CB1 /* WereWolfModeratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				627F19FD207D096E00871CB1 /* WereWolfModeratorTests.swift */,
+				627F19FF207D096E00871CB1 /* Info.plist */,
+			);
+			path = WereWolfModeratorTests;
+			sourceTree = "<group>";
+		};
+		627F1A07207D096E00871CB1 /* WereWolfModeratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				627F1A08207D096E00871CB1 /* WereWolfModeratorUITests.swift */,
+				627F1A0A207D096E00871CB1 /* Info.plist */,
+			);
+			path = WereWolfModeratorUITests;
+			sourceTree = "<group>";
+		};
+		627F1A28207D0E6500871CB1 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				627F1A2A207D0E7400871CB1 /* AppDelegate.swift */,
+				626C1E5C207D9526009CC51A /* werewolf-header.m */,
+				626C1E5B207D9526009CC51A /* WereWolfModerator-Bridging-Header.h */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		627F1A31207D0EC200871CB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				626C1E70207E473B009CC51A /* Groups Player Detail */,
+				626C1E6F207E4734009CC51A /* Group Players */,
+				627F1A3C207D137200871CB1 /* Main */,
+				627F1A3A207D114800871CB1 /* BaseViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		627F1A32207D0F2F00871CB1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		627F1A33207D0F3700871CB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				626C1E5E207D9CE8009CC51A /* HomeCardModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		627F1A34207D0F3D00871CB1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				627F1A38207D10C800871CB1 /* SBIdentifier.swift */,
+				626C1E68207DFFCE009CC51A /* WWMString.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		627F1A35207D0F4400871CB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				627F1A36207D0F8700871CB1 /* ExtentionUIViewController.swift */,
+				626C1E58207D930A009CC51A /* ExtensionUIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		627F1A3C207D137200871CB1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				627F1A3E207D143B00871CB1 /* MainViewController.swift */,
+				627F1A40207D143B00871CB1 /* MainViewModel.swift */,
+				627F1A45207D185F00871CB1 /* MainTableViewCell.swift */,
+				627F1A46207D185F00871CB1 /* MainTableViewCell.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		627F1A49207D251400871CB1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				626C1E1C207D92A7009CC51A /* Spings */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		B095B75108C66AD13E30FFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43D8008661AE60A567484845 /* Pods_WereWolfModerator.framework */,
+				30C342AF2E5A6BF953A1A828 /* Pods_WereWolfModeratorTests.framework */,
+				7226F731A2CEE206C6E12181 /* Pods_WereWolfModeratorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		627F19E4207D096E00871CB1 /* WereWolfModerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627F1A0D207D096E00871CB1 /* Build configuration list for PBXNativeTarget "WereWolfModerator" */;
+			buildPhases = (
+				6F02F6D7A7CE6617ACA0C4FB /* [CP] Check Pods Manifest.lock */,
+				627F19E1207D096E00871CB1 /* Sources */,
+				627F19E2207D096E00871CB1 /* Frameworks */,
+				627F19E3207D096E00871CB1 /* Resources */,
+				E7E49BDEC7ED7655E01924F7 /* [CP] Embed Pods Frameworks */,
+				3BF8C39392A9B84C9D5AA270 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WereWolfModerator;
+			productName = WereWolfModerator;
+			productReference = 627F19E5207D096E00871CB1 /* WereWolfModerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		627F19F8207D096E00871CB1 /* WereWolfModeratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627F1A10207D096E00871CB1 /* Build configuration list for PBXNativeTarget "WereWolfModeratorTests" */;
+			buildPhases = (
+				2C104A9472B22D3B569C301C /* [CP] Check Pods Manifest.lock */,
+				627F19F5207D096E00871CB1 /* Sources */,
+				627F19F6207D096E00871CB1 /* Frameworks */,
+				627F19F7207D096E00871CB1 /* Resources */,
+				05ACA24C67D292E8A40AD542 /* [CP] Embed Pods Frameworks */,
+				DDC6AB6385039B09A593BAA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				627F19FB207D096E00871CB1 /* PBXTargetDependency */,
+			);
+			name = WereWolfModeratorTests;
+			productName = WereWolfModeratorTests;
+			productReference = 627F19F9207D096E00871CB1 /* WereWolfModeratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		627F1A03207D096E00871CB1 /* WereWolfModeratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627F1A13207D096E00871CB1 /* Build configuration list for PBXNativeTarget "WereWolfModeratorUITests" */;
+			buildPhases = (
+				191C717B00D886F766AA89F4 /* [CP] Check Pods Manifest.lock */,
+				627F1A00207D096E00871CB1 /* Sources */,
+				627F1A01207D096E00871CB1 /* Frameworks */,
+				627F1A02207D096E00871CB1 /* Resources */,
+				FF656E195C0CF073364A5E05 /* [CP] Embed Pods Frameworks */,
+				2EC4575BFD1D6F7E8B26EFCD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				627F1A06207D096E00871CB1 /* PBXTargetDependency */,
+			);
+			name = WereWolfModeratorUITests;
+			productName = WereWolfModeratorUITests;
+			productReference = 627F1A04207D096E00871CB1 /* WereWolfModeratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		627F19DD207D096E00871CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MacPro1;
+				TargetAttributes = {
+					627F19E4207D096E00871CB1 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					627F19F8207D096E00871CB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 627F19E4207D096E00871CB1;
+					};
+					627F1A03207D096E00871CB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 627F19E4207D096E00871CB1;
+					};
+				};
+			};
+			buildConfigurationList = 627F19E0207D096E00871CB1 /* Build configuration list for PBXProject "WereWolfModerator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = 627F19DC207D096E00871CB1;
+			productRefGroup = 627F19E6207D096E00871CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				627F19E4207D096E00871CB1 /* WereWolfModerator */,
+				627F19F8207D096E00871CB1 /* WereWolfModeratorTests */,
+				627F1A03207D096E00871CB1 /* WereWolfModeratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627F19E3207D096E00871CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627F19F3207D096E00871CB1 /* LaunchScreen.storyboard in Resources */,
+				626C1E89207E5C47009CC51A /* GroupPlayerCollectionViewCell.xib in Resources */,
+				626C1E51207D92BC009CC51A /* Info.plist in Resources */,
+				627F19F0207D096E00871CB1 /* Assets.xcassets in Resources */,
+				626C1E65207DA01A009CC51A /* Localizable.strings in Resources */,
+				626C1E52207D92BC009CC51A /* LoadingView.xib in Resources */,
+				627F1A48207D185F00871CB1 /* MainTableViewCell.xib in Resources */,
+				627F19EE207D096E00871CB1 /* Main.storyboard in Resources */,
+				62DCEF79207F5437003BA342 /* PlayerTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627F19F7207D096E00871CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627F1A02207D096E00871CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05ACA24C67D292E8A40AD542 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WereWolfModeratorTests/Pods-WereWolfModeratorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		191C717B00D886F766AA89F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WereWolfModeratorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C104A9472B22D3B569C301C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WereWolfModeratorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC4575BFD1D6F7E8B26EFCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WereWolfModeratorUITests/Pods-WereWolfModeratorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF8C39392A9B84C9D5AA270 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WereWolfModerator/Pods-WereWolfModerator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F02F6D7A7CE6617ACA0C4FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WereWolfModerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC6AB6385039B09A593BAA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WereWolfModeratorTests/Pods-WereWolfModeratorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E49BDEC7ED7655E01924F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WereWolfModerator/Pods-WereWolfModerator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicColor/DynamicColor.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WereWolfModerator/Pods-WereWolfModerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF656E195C0CF073364A5E05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WereWolfModeratorUITests/Pods-WereWolfModeratorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		627F19E1207D096E00871CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626C1E69207DFFCE009CC51A /* WWMString.swift in Sources */,
+				626C1E4A207D92BC009CC51A /* DesignableLabel.swift in Sources */,
+				626C1E41207D92BC009CC51A /* SpringButton.swift in Sources */,
+				627F1A3B207D114800871CB1 /* BaseViewController.swift in Sources */,
+				626C1E57207D92BC009CC51A /* DesignableTextView.swift in Sources */,
+				626C1E4E207D92BC009CC51A /* SpringTextView.swift in Sources */,
+				626C1E8B207EF125009CC51A /* GroupPlayerDetailsViewController.swift in Sources */,
+				626C1E50207D92BC009CC51A /* DesignableView.swift in Sources */,
+				626C1E3B207D92BC009CC51A /* Misc.swift in Sources */,
+				626C1E7D207E4F8F009CC51A /* GroupPlayerRealmModal.swift in Sources */,
+				627F1A2C207D0E7400871CB1 /* AppDelegate.swift in Sources */,
+				626C1E3D207D92BC009CC51A /* KeyboardLayoutConstraint.swift in Sources */,
+				626C1E48207D92BC009CC51A /* LoadingView.swift in Sources */,
+				626C1E8D207EF138009CC51A /* GroupPlayerViewModel.swift in Sources */,
+				626C1E3E207D92BC009CC51A /* DesignableButton.swift in Sources */,
+				626C1E44207D92BC009CC51A /* SpringView.swift in Sources */,
+				626C1E7F207E5102009CC51A /* GroupPlayerServices.swift in Sources */,
+				626C1E56207D92BC009CC51A /* AsyncButton.swift in Sources */,
+				626C1E7B207E4C17009CC51A /* PlayerRealmModel.swift in Sources */,
+				626C1E4F207D92BC009CC51A /* AutoTextView.swift in Sources */,
+				626C1E55207D92BC009CC51A /* SpringTextField.swift in Sources */,
+				626C1E46207D92BC009CC51A /* Spring.swift in Sources */,
+				626C1E3F207D92BC009CC51A /* SpringImageView.swift in Sources */,
+				626C1E88207E5C47009CC51A /* GroupPlayerCollectionViewCell.swift in Sources */,
+				627F1A42207D143B00871CB1 /* MainViewController.swift in Sources */,
+				626C1E4D207D92BC009CC51A /* ImageLoader.swift in Sources */,
+				627F1A47207D185F00871CB1 /* MainTableViewCell.swift in Sources */,
+				626C1E40207D92BC009CC51A /* UnwindSegue.swift in Sources */,
+				626C1E42207D92BC009CC51A /* SoundPlayer.swift in Sources */,
+				627F1A39207D10C800871CB1 /* SBIdentifier.swift in Sources */,
+				626C1E49207D92BC009CC51A /* BlurView.swift in Sources */,
+				626C1E53207D92BC009CC51A /* TransitionZoom.swift in Sources */,
+				626C1E72207E474E009CC51A /* PlayersViewController.swift in Sources */,
+				627F1A37207D0F8700871CB1 /* ExtentionUIViewController.swift in Sources */,
+				626C1E4C207D92BC009CC51A /* AsyncImageView.swift in Sources */,
+				626C1E3C207D92BC009CC51A /* DesignableImageView.swift in Sources */,
+				62DCEF78207F5437003BA342 /* PlayerTableViewCell.swift in Sources */,
+				626C1E4B207D92BC009CC51A /* DesignableTextField.swift in Sources */,
+				626C1E47207D92BC009CC51A /* TransitionManager.swift in Sources */,
+				626C1E79207E4AC4009CC51A /* PlayerServices.swift in Sources */,
+				627F1A44207D143B00871CB1 /* MainViewModel.swift in Sources */,
+				626C1E45207D92BC009CC51A /* DesignableTabBarController.swift in Sources */,
+				626C1E5F207D9CE8009CC51A /* HomeCardModel.swift in Sources */,
+				626C1E43207D92BC009CC51A /* SpringLabel.swift in Sources */,
+				626C1E5D207D9526009CC51A /* werewolf-header.m in Sources */,
+				626C1E74207E4767009CC51A /* PlayersViewModel.swift in Sources */,
+				626C1E59207D930A009CC51A /* ExtensionUIColor.swift in Sources */,
+				626C1E54207D92BC009CC51A /* SpringAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627F19F5207D096E00871CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627F19FE207D096E00871CB1 /* WereWolfModeratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627F1A00207D096E00871CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627F1A09207D096E00871CB1 /* WereWolfModeratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		627F19FB207D096E00871CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 627F19E4207D096E00871CB1 /* WereWolfModerator */;
+			targetProxy = 627F19FA207D096E00871CB1 /* PBXContainerItemProxy */;
+		};
+		627F1A06207D096E00871CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 627F19E4207D096E00871CB1 /* WereWolfModerator */;
+			targetProxy = 627F1A05207D096E00871CB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		626C1E63207DA01A009CC51A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				626C1E64207DA01A009CC51A /* Base */,
+				626C1E66207DA02E009CC51A /* en */,
+				626C1E67207DA031009CC51A /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		627F19EC207D096E00871CB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				627F19ED207D096E00871CB1 /* Base */,
+				626C1E61207D9FB1009CC51A /* vi */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		627F19F1207D096E00871CB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				627F19F2207D096E00871CB1 /* Base */,
+				626C1E62207D9FB1009CC51A /* vi */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		627F1A0B207D096E00871CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		627F1A0C207D096E00871CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		627F1A0E207D096E00871CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB736DA3286F26E33C415C1 /* Pods-WereWolfModerator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y88WBCRNR;
+				INFOPLIST_FILE = WereWolfModerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giapvo.WereWolfModerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WereWolfModerator/Apps/WereWolfModerator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		627F1A0F207D096E00871CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD85CE5C7EF7316E11014DD5 /* Pods-WereWolfModerator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y88WBCRNR;
+				INFOPLIST_FILE = WereWolfModerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giapvo.WereWolfModerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WereWolfModerator/Apps/WereWolfModerator-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		627F1A11207D096E00871CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0C33D0C4814004994C5E3E /* Pods-WereWolfModeratorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y88WBCRNR;
+				INFOPLIST_FILE = WereWolfModeratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giapvo.WereWolfModeratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WereWolfModerator.app/WereWolfModerator";
+			};
+			name = Debug;
+		};
+		627F1A12207D096E00871CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DF165C2D691A3216F11186 /* Pods-WereWolfModeratorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y88WBCRNR;
+				INFOPLIST_FILE = WereWolfModeratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giapvo.WereWolfModeratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WereWolfModerator.app/WereWolfModerator";
+			};
+			name = Release;
+		};
+		627F1A14207D096E00871CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17385F6D26CE73AF4CB7CB1D /* Pods-WereWolfModeratorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y88WBCRNR;
+				INFOPLIST_FILE = WereWolfModeratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giapvo.WereWolfModeratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WereWolfModerator;
+			};
+			name = Debug;
+		};
+		627F1A15207D096E00871CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588CB6E005C20A5C3AAEC68C /* Pods-WereWolfModeratorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y88WBCRNR;
+				INFOPLIST_FILE = WereWolfModeratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = giapvo.WereWolfModeratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WereWolfModerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		627F19E0207D096E00871CB1 /* Build configuration list for PBXProject "WereWolfModerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627F1A0B207D096E00871CB1 /* Debug */,
+				627F1A0C207D096E00871CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627F1A0D207D096E00871CB1 /* Build configuration list for PBXNativeTarget "WereWolfModerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627F1A0E207D096E00871CB1 /* Debug */,
+				627F1A0F207D096E00871CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627F1A10207D096E00871CB1 /* Build configuration list for PBXNativeTarget "WereWolfModeratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627F1A11207D096E00871CB1 /* Debug */,
+				627F1A12207D096E00871CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627F1A13207D096E00871CB1 /* Build configuration list for PBXNativeTarget "WereWolfModeratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627F1A14207D096E00871CB1 /* Debug */,
+				627F1A15207D096E00871CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 627F19DD207D096E00871CB1 /* Project object */;
+}
